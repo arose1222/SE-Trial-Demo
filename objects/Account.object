@@ -322,7 +322,7 @@
     </fields>
     <fields>
         <fullName>Test_Pipeline__c</fullName>
-        <description>Test</description>
+        <description>Test Test Test Test</description>
         <externalId>false</externalId>
         <label>Test Pipeline</label>
         <length>250</length>
