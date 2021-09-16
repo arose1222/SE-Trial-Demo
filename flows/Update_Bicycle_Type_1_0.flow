@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
-    <apiVersion>52.0</apiVersion>
+    <apiVersion>53.0</apiVersion>
     <decisions>
         <processMetadataValues>
             <name>index</name>
@@ -26,21 +26,20 @@
             <connector>
                 <targetReference>myRule_1_A1</targetReference>
             </connector>
-            <label>Update Type</label>
+            <label>Update Bicycle Type</label>
         </rules>
     </decisions>
-    <description>Trial Use Case 1</description>
     <formulas>
         <name>formula_myRule_1</name>
         <dataType>Boolean</dataType>
         <expression>true</expression>
     </formulas>
-    <interviewLabel>Update_Bicycle_Type-1_InterviewLabel</interviewLabel>
-    <label>Update Bicycle Type</label>
+    <interviewLabel>Update_Bicycle_Type_1_0-1_InterviewLabel</interviewLabel>
+    <label>Update Bicycle Type 1.0</label>
     <processMetadataValues>
         <name>ObjectType</name>
         <value>
-            <stringValue>Bicycle__c</stringValue>
+            <stringValue>Bicycle_1_0__c</stringValue>
         </value>
     </processMetadataValues>
     <processMetadataValues>
@@ -81,14 +80,14 @@
         <processMetadataValues>
             <name>reference</name>
             <value>
-                <stringValue>[Bicycle__c]</stringValue>
+                <stringValue>[Bicycle_1_0__c]</stringValue>
             </value>
         </processMetadataValues>
         <processMetadataValues>
             <name>referenceTargetField</name>
         </processMetadataValues>
         <name>myRule_1_A1</name>
-        <label>Update Type</label>
+        <label>Update Field Type</label>
         <locationX>100</locationX>
         <locationY>200</locationY>
         <filterLogic>and</filterLogic>
@@ -141,7 +140,7 @@
                 <stringValue>BMX</stringValue>
             </value>
         </inputAssignments>
-        <object>Bicycle__c</object>
+        <object>Bicycle_1_0__c</object>
     </recordUpdates>
     <startElementReference>myDecision</startElementReference>
     <status>Active</status>
@@ -151,7 +150,7 @@
         <isCollection>false</isCollection>
         <isInput>true</isInput>
         <isOutput>true</isOutput>
-        <objectType>Bicycle__c</objectType>
+        <objectType>Bicycle_1_0__c</objectType>
     </variables>
     <variables>
         <name>myVariable_old</name>
@@ -159,6 +158,6 @@
         <isCollection>false</isCollection>
         <isInput>true</isInput>
         <isOutput>false</isOutput>
-        <objectType>Bicycle__c</objectType>
+        <objectType>Bicycle_1_0__c</objectType>
     </variables>
 </Flow>

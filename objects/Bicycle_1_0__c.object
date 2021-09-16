@@ -143,7 +143,6 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>Use to test Trial Use Case 1</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -156,7 +155,6 @@
     <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>Type__c</fullName>
-        <description>Used for Trial Use Case 1</description>
         <externalId>false</externalId>
         <label>Type</label>
         <required>false</required>
@@ -177,9 +175,9 @@
                     <label>Mountain</label>
                 </value>
                 <value>
-                    <fullName>Street</fullName>
+                    <fullName>Road</fullName>
                     <default>false</default>
-                    <label>Street</label>
+                    <label>Road</label>
                 </value>
                 <value>
                     <fullName>Tandem</fullName>
@@ -189,12 +187,12 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
-    <label>Bicycle</label>
+    <label>Bicycle 1.0</label>
     <nameField>
-        <label>Bicycle  Name</label>
+        <label>Bicycle Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Bicycles</pluralLabel>
+    <pluralLabel>Bicycles 1.0</pluralLabel>
     <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
