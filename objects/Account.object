@@ -331,6 +331,16 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>Test_Pull_Request__c</fullName>
+        <externalId>false</externalId>
+        <label>Test Pull Request</label>
+        <length>250</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>TickerSymbol</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
