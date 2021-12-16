@@ -4162,6 +4162,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>C_Suite_Contact__c.Phone_Number__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>C_Suite_Contact__c.Title__c</field>
         <readable>true</readable>
     </fieldPermissions>
