@@ -1,4 +1,5 @@
 public class AccountFunctionality {
+    // CLI Demo Test Run for Veruna
     Public static Account setDefaultDescription(Account a){
         If (a.Description != null) return a;
         Else {
