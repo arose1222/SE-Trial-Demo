@@ -311,6 +311,16 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>PR_Field__c</fullName>
+        <externalId>false</externalId>
+        <label>PR Field</label>
+        <length>250</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>ParentId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Hierarchy</type>
