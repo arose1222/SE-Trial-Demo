@@ -15,6 +15,12 @@ public class CSuiteLogic {
                     csc.Account__c = con.AccountId;
                     csc.Contact__c = con.id;
                     csc.Title__c = con.Title;
+                    
+                    if ( !String.isblank(con.Phone) ) {
+                        csc.Phone_Number__c = con.Phone;   
+                    } else {
+                        csc.Phone_Number__c = con.Account.Phone;
+                    }
                     csc.Name = con.Account.name + ' - ' + con.Title;
                     csuites.add(csc);
                 }   
@@ -41,6 +47,8 @@ public class CSuiteLogic {
         if(!conIds.isEmpty()){
             List<Contact> retCons = [SELECT id,
                                         AccountId,
+                                        Account.Phone,
+                                        Phone,
                                         Title,
                                         Account.name
                                      FROM Contact 
