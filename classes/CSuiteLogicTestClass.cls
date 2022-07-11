@@ -8,7 +8,8 @@ private class CSuiteLogicTestClass {
     static void setupMethod(){
         
         testAccount = new Account(
-            Name = 'Test Account');
+            Name = 'Test Account',
+            Phone = '404.727.1213');
         
         insert testAccount;
         
