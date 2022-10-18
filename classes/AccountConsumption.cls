@@ -27,3 +27,5 @@ public class AccountConsumption {
         return a;
     }
 }
+
+// Merge Conflict Scenario
