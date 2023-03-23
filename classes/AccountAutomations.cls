@@ -13,9 +13,9 @@ public class AccountAutomations {
         return a;
     }
     public static Account setDefaultShippingAddress(Account a){
-        a.shippingstreet = 'Basauri, 6'; 
-        a.shippingstate = 'Madrid';
-        a.shippingpostalcode ='28023';
+        a.shippingstreet = '1001 N Riverside'; 
+        a.shippingstate = 'Muncie';
+        a.shippingpostalcode ='45678';
         return a;
     }
     public static Account setDefaultPhone(Account a) {
