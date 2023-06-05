@@ -4145,6 +4145,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>C_Suite_Contact__c.Account__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>C_Suite_Contact__c.Contact__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Campaign.ActualCost</field>
         <readable>true</readable>
     </fieldPermissions>
