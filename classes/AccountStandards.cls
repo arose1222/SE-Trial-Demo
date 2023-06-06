@@ -1,4 +1,4 @@
-public class AccountFunctionality {
+public class AccountStandards {
     Public static Account setDefaultDescription(Account a){
         If (a.Description != null) return a;
         Else {
@@ -25,4 +25,3 @@ public class AccountFunctionality {
         return a;
     }
 }
-//Test SonarCloud...
