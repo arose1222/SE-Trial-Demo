@@ -13,11 +13,13 @@ private class AccountStandardsTest {
         System.assertNotEquals('Default description', acc.Description, 'When description is NOT null, it is NOT updated to Default description');
     }
 
-    @isTest static void testDefaultSite(){
+    @isTest static void testDefaultBillingAddress(){
         Account acc = new Account(Name = 'My Test Account');
         insert acc;
-        acc = AccountStandards.setDefaultSite(acc);
-        System.assertEquals('Single location', acc.Site, 'Default Site is Single location');
+        acc = AccountStandards.setDefaultBillingAddress(acc);
+        System.assertEquals('Basauri, 6', acc.BillingStreet, 'Default BillingStreet is Basauri, 6');
+        System.assertEquals('Madrid', acc.BillingState, 'Default BillingState is Madrid');
+        System.assertEquals('28023', acc.BillingPostalCode, 'Default BillingPostalCode is 28023');
     }
 
     @isTest static void testDefaultShippingAddress(){
